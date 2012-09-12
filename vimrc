@@ -56,3 +56,9 @@ noremap <leader>2 = :%s/\*/\-/g
 
 " 110823, delimitMate options
 let delimitMate_autoclose = 1
+
+" 120304, backspace issues?
+set backspace=start,eol,indent
+
+" 120305, os x clipboard @kelseyhightower
+set clipboard=unnamed
