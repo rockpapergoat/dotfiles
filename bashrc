@@ -60,6 +60,7 @@ alias task='/usr/local/bin/t.py --task-dir ~/tasks --list tasks'
 # rvm-install added line:
 if [[ -s ~/.rvm/scripts/rvm ]] ; then source ~/.rvm/scripts/rvm ; fi
 
-
+# added 10/16/12                                                                                │                                                                                                
+alias tn='tmux new -s "$(basename `pwd`)" || tmux at -t "$(basename ` pwd`)"'
 
 source $HOME/.profile
